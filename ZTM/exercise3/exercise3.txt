@@ -1,0 +1,39 @@
+
+// Make a Calculator! using prompt(), and variables, make a program that does the following:
+// 1. Prompts the user for first number.
+// 2. Stores that first number
+// 3. Prompts the user for the second number.
+// 4. stores that number and responds with the SUM by using an alert.  
+
+
+// BONUS: Make a program that can subtract, multiply, and also divide!
+
+var firstNumber = prompt(
+    "Enter first number: "
+);
+
+var secondNumber = prompt(
+    "Enter second number: "
+)
+
+var operation = prompt("Type + to add, - to subtract, * to multiply, or / to divide.")
+
+var difference = Number(firstNumber) - Number(secondNumber);
+var sum = Number(firstNumber) + Number(secondNumber);
+var product = Number(firstNumber) * Number(secondNumber);
+var quotient = Number(firstNumber) / Number(secondNumber);
+
+if(operation === "+"){
+    alert("The sum is: " + sum);
+
+} else if(operation === "-"){
+    alert("The difference is: " + difference);
+
+} else if(operation === "*"){
+    alert("The product is: " + product);
+
+} else if(operation === "/"){
+    alert("The quotient is: " + quotient);
+} else {
+    alert("invalid input");
+}

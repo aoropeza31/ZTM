@@ -1,0 +1,59 @@
+/* Selector {
+    Property: value;
+} */
+* {
+    text-align: right;
+}
+
+body{
+    background-image: url(bgimg.jpg);
+    background-size: cover;
+}
+p {
+    color: #452F74;
+    text-align: center;
+    border: 5px solid #996699;
+    cursor: pointer;
+}
+
+p{
+    line-height: 5px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 180%;
+    font-family: 'Poiret One', cursive;
+}
+
+img{
+    float: right;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+}
+p{
+    color: green;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext:last-child {
+    border: 5px dashed green;
+}
+
+.active{
+    color: red;
+}
+
+#div1 {
+    background: rgba(0, 0, 255, 0.351);
+}
+
+#div2 {
+    background: rgba(0, 255, 0, .351);
+}
+
